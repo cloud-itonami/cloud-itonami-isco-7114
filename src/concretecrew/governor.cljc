@@ -81,7 +81,7 @@
   in governor_test.clj, which asserts every default mock-advisor
   proposal for all four allowlisted ops passes this check clean."
   (:require [concretecrew.store :as store]
-            [clojure.string :as str]))
+            [kotoba.lang.text :as str]))
 
 (def confidence-floor 0.6)
 
@@ -104,7 +104,7 @@
    "override the site safety officer"])
 
 (defn- text-blob [proposal]
-  (str/lower-case
+  (str/lower
    (str/join " " (keep proposal [:rationale :task :concern :progress :instruction :notes]))))
 
 (defn- scope-excluded? [proposal]
