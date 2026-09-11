@@ -13,7 +13,7 @@ This repository designs a forkable OSS business for an independent concrete-crew
 (`concretecrew.governor`), following the itonami actor pattern
 (ADR-2607121000): `:intake -> :advise -> :govern -> :decide -+-> :commit
 (:ok?) +-> :request-approval (:escalate?, human-in-the-loop interrupt)
-+-> :hold (:hard?)`. 25 tests green (`clojure -M:test`).
++-> :hold (:hard?)`. 25 tests green (`kbb -M:test`).
 
 HARD invariants (always hold, never overridable — including by human
 approval, since a hard block never reaches `:request-approval`):
