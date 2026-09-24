@@ -1,5 +1,5 @@
 (ns concretecrew.governor-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [concretecrew.store :as store]
             [concretecrew.advisor :as advisor]
             [concretecrew.governor :as governor]))

@@ -1,5 +1,5 @@
 (ns concretecrew.actor-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [concretecrew.actor :as actor]
             [concretecrew.store :as store]))
 
