@@ -1,7 +1,7 @@
 (ns concretecrew.store
   "SSoT for the ISCO-08 7114 concrete-crew job-site scheduling and
   logistics coordination actor (itonami actor pattern, ADR-2607121000
-  / CLAUDE.md Actors section; README's 'Robotics premise' — a
+  / AGENTS.md Actors section; README's 'Robotics premise' — a
   job-site scheduling/logistics coordination robot performs
   task/materials-usage/progress logging, crew and pour-timing
   scheduling, safety-concern surfacing and supply-order coordination
