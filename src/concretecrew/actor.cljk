@@ -2,7 +2,7 @@
   "ConcreteCrewActor — the ISCO-08 7114 concrete placers, concrete
   finishers and related workers job-site scheduling/logistics
   coordination actor as a `langgraph.graph/state-graph`
-  (ADR-2607121000 / CLAUDE.md Actors section). One graph run = one
+  (ADR-2607121000 / AGENTS.md Actors section). One graph run = one
   coordination operation request (intake → advise → govern → decide →
   commit/hold, with a human-approval interrupt for escalated
   proposals). No infinite internal loop; checkpointed per superstep
